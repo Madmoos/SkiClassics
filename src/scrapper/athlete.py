@@ -6,7 +6,7 @@ import numpy as np
 
 
 
-def download_athlete_information_via_standings(season:int, gender:str, competition:int=2819, nation:str='all'):
+def download_athlete_information_via_standings(season:int, gender:str, competition:int=2819, nation:str='all')->None:
     df_standings_schema = {
             "rank":[],
             "name":[],
